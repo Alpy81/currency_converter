@@ -1,0 +1,85 @@
+html {
+    background-color: black;
+    margin: 0;
+    font-family: WorkSans-Regular, sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+@font-face {
+    font-family: WorkSans-Regular;
+    src: url(../fonts/WorkSans-Regular.ttf);
+}
+
+div {
+    
+    min-height: 100%;
+    margin-bottom: 50px;
+}
+
+.navbar {
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-color:black;
+}
+
+.input-container {
+    width: 100px;
+}
+
+.flag {
+    width: 70px;
+    position: absolute;
+    left: 50px;
+}
+
+.arrow-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 19rem;
+    cursor: pointer;
+}
+
+button {
+    margin-left: 27rem;
+    background-color: yellow;
+    padding: 0 32px;
+    height: 50px;
+    border: unset;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input {
+    height: 70px;
+    background-color: transparent;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 20px;
+    flex: 1;
+    padding-right: 50px;
+    font-size: 35px;
+    color: white;
+    text-align: right;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 80%;
+}
+
+span {
+    margin-left: 2rem;
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+    bottom: 10px;
+    
+}
